@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": false,
+    "baseUrl": ".",
+    "allowJs": true,
+    "paths":{
+      "@/controllers/*":["src/controllers/*"],
+      "@/models/*":["src/models/*"],
+      "@/routes/*":["src/routes/*"],
+      "@/config/*":["src/config/*"],
+      "@/middlewares/*":["src/middlewares"],
+      "@/useCases/*":["src/useCases/*"],
+      "@/helpers/*":["src/helpers/*"],
+      "@/blazeScrapping/*":["src/blazeScrapping/*"],
+    }
+  },
+  "include": ["src/**/*"]
+
+}
