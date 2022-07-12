@@ -12,6 +12,7 @@
     "@types/mongoose": "^5.11.97",
     "@types/node": "^18.0.1",
     "@types/selenium-webdriver": "^4.1.1",
+    "chromedriver": "^103.0.0",
     "dotenv": "^16.0.1",
     "mongoose": "^6.4.3",
     "selenium-webdriver": "^4.3.1",

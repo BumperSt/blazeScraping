@@ -42,6 +42,7 @@ export default () => {
             width: 1920,
             height: 1080
         };
+        console.log("Iniciou o scrapping do Double")
         let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(new Chorme.Options().headless().windowSize(screen).addArguments("--log-level=3",'--no-sandbox', "--disable-dev-shm-usage", '--disable-gpu',"--test-type", "--no-first-run","--no-default-browser-check","--ignore-certificate-errors","--start-maximized")).build();
         try {
             await driver.get('https://blaze.com/en/games/double');
